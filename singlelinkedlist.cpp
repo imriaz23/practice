@@ -10,7 +10,7 @@ void initialize() {
 }
 void insertAtBeginning(int data) {
 	//create new node
-	//second test
+	//test of new barnch
 	ListNode* newNode = new ListNode();
 	if (!newNode) {
 		cout << "memory error" << endl;
