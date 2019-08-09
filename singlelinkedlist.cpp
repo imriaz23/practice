@@ -10,6 +10,7 @@ void initialize() {
 }
 void insertAtBeginning(int data) {
 	//create new node
+	//second test
 	ListNode* newNode = new ListNode();
 	if (!newNode) {
 		cout << "memory error" << endl;
