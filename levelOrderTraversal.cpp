@@ -10,7 +10,7 @@ struct node
 
     }
 };
-void levelOderTracersal(struct node*root){
+void levelOderTraversal(struct node*root){
     node *temp;
     queue<node*> q;
     q.push(root);
@@ -32,5 +32,5 @@ int main(){
     root->right=new node(3);
     root->left->left=new node(4);
     root->left->right=new node(5);
-    levelOderTracersal(root);
+    levelOderTraversal(root);
 }
