@@ -28,6 +28,8 @@ int findMaxElementInBT(struct node*root){
 }
 int main(){
     //freopen("output.txt","w",stdout);
+    ios_base::sync_with_stdio(false);
+    cin.tie(0);
     node *root=new node(55);
     root->left=new node(78);
     root->right=new node(256);

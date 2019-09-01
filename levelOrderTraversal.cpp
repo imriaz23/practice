@@ -27,8 +27,8 @@ void levelOderTraversal(struct node*root){
     
 }
 int main(){
-   // ios_base::sync_with_stdio(false);
-   // cin.tie(0);
+    ios_base::sync_with_stdio(false);
+    cin.tie(0);
     node *root= new node(1);
     root->left= new node(2);
     root->right=new node(3);
