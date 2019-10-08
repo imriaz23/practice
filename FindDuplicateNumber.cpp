@@ -37,6 +37,7 @@ int duplicate(vector<int> nums)
 }
 int main()
 {
+
     vector<int> nums;
     int in;
     for (int i = 0; i < 5; i++)
