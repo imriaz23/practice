@@ -2,4 +2,10 @@
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 1,
     "c-cpp-compile-run.run-args": "<in"
-}
+
+
+
+        "files.exclude": {
+            "*.exe":true
+        }
+    }
