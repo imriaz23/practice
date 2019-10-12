@@ -38,16 +38,16 @@ int FirstRepeatedNumber(vector<int> array)
         else
         {
             //if (hash[array[i]] < 0)
-             //   continue;
-            
-                hash[array[i]] *= -1;
+            //   continue;
+
+            hash[array[i]] *= -1;
         }
     }
     for (auto i : hash)
         if (i.second < 0 && i.second > result)
             result = i.second;
 
-    return result*-1;
+    return result * -1;
 }
 int main(int argc, char const *argv[])
 {
