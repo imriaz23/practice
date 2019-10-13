@@ -124,6 +124,6 @@ int main()
     // duplicate = FindTwoRepeatedElements3(array, n);
     duplicate = FindTwoRepeatedElements4(array, n);
     for (auto itr : duplicate)
-        cout << itr << " " << endl;
+        cout << itr << " ";
     return 0;
 }
