@@ -11,7 +11,9 @@ int main()
     {
         int count1 = 0;
         int count2 = 0;
-
+        //~ another testing
+        
+	
         vector<char> s2;
         cin >> s1 >> s2;
         for (int i = 0; i < s1.length(); i++)
